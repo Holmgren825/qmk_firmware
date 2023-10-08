@@ -18,6 +18,13 @@
 
 #pragma once
 
+#define BOTH_SHIFTS_TURNS_ON_CAPS_WORD
+
+// default but used in macros
+#undef TAPPING_TERM
+#define TAPPING_TERM 200
+
+
 /* RGB matrix support. */
 #ifdef RGB_MATRIX_ENABLE
 #    define SPLIT_TRANSPORT_MIRROR
