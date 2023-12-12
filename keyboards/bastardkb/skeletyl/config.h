@@ -22,14 +22,14 @@
 
 // default but used in macros
 #undef TAPPING_TERM
-#define TAPPING_TERM 200
-
+#define TAPPING_TERM 150
 
 /* RGB matrix support. */
 #ifdef RGB_MATRIX_ENABLE
 #    define SPLIT_TRANSPORT_MIRROR
 #    define RGB_MATRIX_LED_COUNT 36
-#    define RGB_MATRIX_SPLIT { 18, 18 }
+#    define RGB_MATRIX_SPLIT \
+        { 18, 18 }
 #    define RGB_MATRIX_MAXIMUM_BRIGHTNESS 50
 #    define RGB_MATRIX_DEFAULT_VAL RGB_MATRIX_MAXIMUM_BRIGHTNESS
 #    define RGB_DISABLE_WHEN_USB_SUSPENDED
