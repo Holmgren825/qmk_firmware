@@ -20,6 +20,8 @@
 
 #define BOTH_SHIFTS_TURNS_ON_CAPS_WORD
 
+#define EE_HANDS
+
 // default but used in macros
 #undef TAPPING_TERM
 #define TAPPING_TERM 150
